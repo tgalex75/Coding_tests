@@ -7,7 +7,7 @@ body {
   font-size: 15pt;
 }
 .container {
-  width: 600px;
+  width: 80vw;
   background: teal;
   margin: auto;
   text-align: center;
@@ -57,5 +57,5 @@ body {
   cursor: pointer;
 }
 .item:active > .layover > span {
-  color: yellow;
+  color: white;
 }
