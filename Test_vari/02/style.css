@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+.container-img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+
+}
+
+#first {
+    background-image: url(./img/rome.jpg);
+}
+
+#second {
+    background-image: url(./img/amsterdam.jpg);
+}
+
+#third {
+    background-image: url(./img/new_york.jpg);
+}
+
+.city-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  
+}

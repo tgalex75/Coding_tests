@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+.container1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        height: 80vh;
+        width: 80vw;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+}
+
+
+
+.bottone {
+        padding: 15px 30px;
+        background-color: teal;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: absolute;
+        left: 50%;
+        top: 75%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+}
+
+.bottone:hover {
+        background-color: rgb(0, 73, 73);
+}
+
+#riga {
+        height: 400px;
+}
+
+#riga .col-md-4 {
+        position: relative;
+        height: 100%;
+}
+
+.circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: lightgray;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+}
+
+#verde {
+        background-color: lightgray;
+}

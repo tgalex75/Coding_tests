@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+nav {
+    width: 100%;
+    padding: 0 25px;
+    background-color: teal;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #fff;
+    transition: .3s;
+}
+
+.menu a:hover {
+    color: #222;
+}
+
+.submenu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border: 1px solid teal;
+    border-bottom: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.submenu-lv2 {
+    position: absolute;
+    left: 110%;
+    top: 0;
+    border: 1px solid teal;
+    border-bottom: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu .has-children:hover .submenu {
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+    top: 50px;
+}
+
+.submenu .has-children:hover > .submenu-lv2 {
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+    left: 101%;    
+}
+
+.submenu li, .submenu-lv2 li{
+    width: 100%;
+    border-bottom: 1px solid teal;
+    font-size: 12px;
+    position: relative;
+}
+
+.submenu a {
+    color: #222;
+}
+
+.submenu a:hover {
+    background-color: teal;
+    color: #fff;
+}

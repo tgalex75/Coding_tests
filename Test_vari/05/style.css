@@ -1,0 +1,80 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #008080;
+  height: 80px;
+  width: 100%;
+  box-shadow: 2px 2px 3px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > .container-fluid > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#insert-number {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    color: #969696;
+    z-index: 1;
+}
+
+main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+main .container #number {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 40px);
+  transform: translate(-50%, -50%);
+  font-size: 300px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #141414;
+}
+
+.buttons {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+}
+
+button {
+  display: inline-block;
+  background-color: teal;
+  width: 140px;
+  padding: 16px 12px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+    background-color: #00b4b4;
+}
