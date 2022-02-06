@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bs-gray-900);
+  color: var(--bs-gray-100);
+  font-family: "Cinzel", serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+#sourceField {
+  font-family: "Times New Roman", serif;
+  font-weight: 500;
+}
+
+#destinationField {
+  background-color: var(--bs-gray-100);
+  border: 10px ridge var(--bs-gray-200);
+  min-width: 85vw;
+  aspect-ratio: 2.2 / 1;
+  color: var(--bs-dark);
+  font-size: 3rem;
+  font-size: 8.5vw;
+}
+
