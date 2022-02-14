@@ -59,6 +59,8 @@ btnAgain.addEventListener("click", function () {
 btnReset.addEventListener("click", function () {
   puntiG1.textContent = 0;
   puntiG2.textContent = 0;
+  pointsG1=0,
+  pointsG2=0
   dado1.innerHTML = "";
   dado2.innerHTML = "";
 });
